@@ -30,10 +30,9 @@ const dateBuilder = (d) => {
   let date = d.getDate();
   let month = months[d.getMonth()];
   let year = d.getFullYear();
-  let hour = d.getHours();
-  let minute = d.getMinutes();
 
-  return `${day} ${date} ${month} ${year} ${hour}:${minute}`
+
+  return `${day} ${date} ${month} ${year}`
 }
 
   return (
